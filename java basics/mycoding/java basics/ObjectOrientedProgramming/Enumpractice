@@ -1,0 +1,40 @@
+
+
+// this code has problem . not compiling. 
+enum Planet{
+    Mercury,Venus,Earth,Mars,Jupitar,Saturn,Uranus,Neptune,Pluto;
+}
+
+
+public class Enumpractice{
+
+    public static void main(String[] args) {
+
+
+       
+        Planet myPlanet = Planet.Earth;
+
+        canILiveHere(myPlanet);
+
+
+        
+    }
+
+
+    
+    static void canILiveHere(Planet myPlanet){
+
+            switch(myPlanet){
+            case Earth:
+                System.out.println("You can live here : ");
+                break;
+            case Mars:
+                System.out.println("You can live here : ");
+                break;
+            default:
+                 System.out.println("You can not live here ....");
+                 break;
+
+        }
+    }
+}
