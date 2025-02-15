@@ -221,7 +221,7 @@ The calendar is displayed in a grid format, with days aligned under their respec
 This program is a great example of how to break down a complex problem into smaller, manageable methods.
 
 
-
+******************************** important more details 
 MORE details for number 7: (using deepseek)
 Purpose of the Method
 The method getTotalNumberOfDays calculates the total number of days from January 1, 1800, up to the start of the given month and year. For example:
