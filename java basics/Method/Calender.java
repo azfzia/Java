@@ -6,13 +6,15 @@ import java.util.Scanner;
 public class Calender{
         public static void  main(String args[]){
 
-            // we need to create a calender /
-            //default days . rows.
-            //>>user input 1. year  2. month .
-            // now year is leap year.
+            //We need to create a calendar /
+            //default days. rows.
+            //>>user input 1. year  2. month.
+            //Now the year is leap year.
             // month is 30 or 31 or 28 or 29.
-            // week start day and date
-            //month start start date and day
+            // week starting  day and front space.
+            //month starting  date and  end day .
+           // think the uml diagram 
+                // create all necessary methods 
 
             Scanner sc = new Scanner( System.in);
 
